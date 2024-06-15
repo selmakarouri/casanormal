@@ -28,7 +28,7 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
   // دالة لإضافة الأزرار إلى الصفحة
 
   // إنشاء الأزرار
-  const Casa§NNormalButton = createButton("Casa National Normal", function() {
+  const CasaNNormalButton = createButton("Casa National Normal", function() {
 (function () {
     "use strict";
 
