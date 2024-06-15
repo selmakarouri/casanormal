@@ -28,7 +28,7 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
   // دالة لإضافة الأزرار إلى الصفحة
 
   // إنشاء الأزرار
-  const CasaNNormalButton = createButton("Casa National Normal", function() {
+  const CasaSNormalButton = createButton("Casa student Normal", function() {
 (function () {
     "use strict";
 
@@ -212,9 +212,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Casa National Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Casa Student Normal بنجاح!");
   });
-const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
+const CasaSPremiumButton = createButton("Casa Student Premium", function() {
 (function () {
     "use strict";
   (async function() {
@@ -383,10 +383,10 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Casa1 National بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Casa Student بنجاح!");
   });
     
-  const Casa2NormalButton = createButton("Casa 2 Normal", function() {
+  const CasaRNormalButton = createButton("Casa reunification  Normal", function() {
 (function () {
     "use strict";
 
@@ -442,7 +442,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(3); // 3 corresponds to 'Casa2'
+                    VisaType.select(2); // 2 corresponds to 'family reunification visa '
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -473,7 +473,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'Casa2'
+                     VisaSubType.select(1); // 1 corresponds to 'family reunification visa '
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -555,9 +555,9 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Casa 2 Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر CAsa reunification visa   Normal بنجاح!");
   });
-  const Casa2PremiumButton = createButton("Casa 2 Premium", function() {
+  const CasaRPremiumButton = createButton("Casa  reunification visa  Premium", function() {
 (function () {
     "use strict";
 
@@ -613,7 +613,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(3); // 3 corresponds to 'Casa2'
+                    VisaType.select(2); // 2 corresponds to 'family reunification visa '
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -644,7 +644,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'Casa2'
+                     VisaSubType.select(1); // 1 corresponds to 'family reunification visa '
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -726,10 +726,10 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Casa 2 Premium بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Casa  reunification visa Premium بنجاح!");
   });
 
-  const Casa3NormalButton = createButton("Casa 3 Normal", function() {
+  const CasaWNormalButton = createButton("Casa Work Normal", function() {
 (function () {
     "use strict";
 
@@ -785,7 +785,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(4); // 4 corresponds to 'Casa3'
+                    VisaType.select(4); // 4 corresponds to 'Work'
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -816,7 +816,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'Casa3'
+                     VisaSubType.select(1); // 1 corresponds to 'Work'
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -899,10 +899,10 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Casa 3 Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Casa Work Normal بنجاح!");
   });
 
-  const Casa3PremiumButton = createButton("Casa 3 Premium", function() {
+  const CasaWPremiumButton = createButton("Casa Work Premium", function() {
 (function () {
     "use strict";
 
@@ -958,7 +958,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(4); // 4 corresponds to 'Casa3'
+                    VisaType.select(4); // 4 corresponds to 'CasaWork'
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -989,7 +989,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'Schengen'
+                     VisaSubType.select(4); // 4 corresponds to 'work'
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -1072,7 +1072,7 @@ const CasaNPremiumButton = createButton("Casa ?National Premium", function() {
     //-------------------//
 
 })();
-      console.log("تم تنفيذ الشيفرة لزر Casa 3 Premium بنجاح!");
+      console.log("تم تنفيذ الشيفرة لزر Casa Work Premium بنجاح!");
   });
 
   //-----------------------------------------------------------/
@@ -1089,15 +1089,15 @@ if (targetSibling) {
     // إضافة الأزرار إلى العنصر الذي يحتوي على الأزرار
  const row1 = document.createElement('div');
   row1.style.display = 'flex';
-  row1.appendChild(CasaNNormalButton);
-  row1.appendChild(Casa2NormalButton);
-  row1.appendChild(Casa3NormalButton);
+  row1.appendChild(CasaSNormalButton);
+  row1.appendChild(Casa2RormalButton);
+  row1.appendChild(CasaWNormalButton);
     
   const row2 = document.createElement('div');
   row2.style.display = 'flex';
-  row2.appendChild(CasaNPremiumButton);
-  row2.appendChild(Casa2PremiumButton);
-  row2.appendChild(Casa3PremiumButton); 
+  row2.appendChild(CasaSPremiumButton);
+  row2.appendChild(CasaRPremiumButton);
+  row2.appendChild(CasaWPremiumButton); 
 
   // إضافة الصفوف إلى العنصر الذي يحتوي على الأزرار
   buttonsContainer.appendChild(row1);
