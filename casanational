@@ -7,7 +7,7 @@
 var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/bls/vtv";
 var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/bls/vt";
 
-
+1
 
 
 
@@ -386,7 +386,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
     console.log("تم تنفيذ الشيفرة لزر Casa Student بنجاح!");
   });
     
-  const CasaRNormalButton = createButton("Casa reunification  Normal", function() {
+  const CasaRNormalButton = createButton("Casa Reunification  Normal", function() {
 (function () {
     "use strict";
 
@@ -442,7 +442,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(2); // 2 corresponds to 'CasaNational '
+                    VisaType.select(1); // 1 corresponds to 'CasaNational '
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
