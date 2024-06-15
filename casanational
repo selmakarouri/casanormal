@@ -473,7 +473,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'family reunification visa '
+                     VisaSubType.select(1); // 1 corresponds to 'CasaNational '
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -613,7 +613,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(2); // 2 corresponds to 'family reunification visa '
+                    VisaType.select(1); // 1 corresponds to 'CAsaNational '
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -644,7 +644,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'family reunification visa '
+                     VisaSubType.select(2); // 2 corresponds to 'family reunification visa '
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -816,7 +816,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleSubVisa && isOkButtonClicked) {
                     console.log("VisaSubType " + i + " is visible");
                     var VisaSubType = $("#VisaSubType" + i).data("kendoDropDownList");
-                     VisaSubType.select(1); // 1 corresponds to 'Work'
+                     VisaSubType.select(1); // 1 corresponds to 'CasaNational'
                     VisaSubType.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -958,7 +958,7 @@ const CasaSPremiumButton = createButton("Casa Student Premium", function() {
                 if (isVisibleVisa) {
                     console.log("VisaType " + i + " is visible");
                     var VisaType = $("#VisaType" + i).data("kendoDropDownList");
-                    VisaType.select(4); // 4 corresponds to 'CasaWork'
+                    VisaType.select(1); // 1 corresponds to 'CasaNational'
                     VisaType.trigger("change");
 
                     await new Promise(resolve => {
@@ -1090,7 +1090,7 @@ if (targetSibling) {
  const row1 = document.createElement('div');
   row1.style.display = 'flex';
   row1.appendChild(CasaSNormalButton);
-  row1.appendChild(Casa2RormalButton);
+  row1.appendChild(CasaRNormalButton);
   row1.appendChild(CasaWNormalButton);
     
   const row2 = document.createElement('div');
