@@ -1194,6 +1194,8 @@ function createButton(label, clickHandler) {
         }
       }, 100);
     }, 1000); // تأخير لمدة 3 ثواني
+ }
+})();
 // Wait for the modal to be fully shown
 $(document).ready(function() {
     // Function to handle the modal shown event
@@ -1202,10 +1204,6 @@ $(document).ready(function() {
         $('#commonModal .btn-primary').click();
     });
 });
-
-  }
-})();
-
 
 //--------------------مؤلف----------------------------//
 
